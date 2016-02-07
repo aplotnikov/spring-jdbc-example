@@ -1,0 +1,59 @@
+# Default excludes
+#########################
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+# Binaries
+#########################
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+*.war
+*.ear
+*.sar
+*.class
+
+# Gradle
+#########################
+.gradle
+gradle
+build/
+target/
+gradle-app.setting
+!gradle-wrapper.jar
+
+# IntelliJ project files
+#########################
+*.iml
+*.iws
+*.ipr
+.idea/
+
+# Eclipse project file
+#########################
+.settings/
+.classpath
+.project
+
+# OS generated files #
+#########################
+.DS_Store
+.directory
+ehthumbs.db
+Icon?
+Thumbs.db
+*/overlays
+*~
+
+# Misc
+#########################
+*.swp
