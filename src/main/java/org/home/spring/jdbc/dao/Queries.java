@@ -28,7 +28,7 @@ public enum Queries {
     private final String query;
     private final boolean isRequiredCompletion;
 
-    Queries(String query, boolean isRequiredCompletion) {
+    Queries(@Nonnull String query, boolean isRequiredCompletion) {
         this.query = query;
         this.isRequiredCompletion = isRequiredCompletion;
     }
