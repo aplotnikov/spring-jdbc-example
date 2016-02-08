@@ -43,7 +43,7 @@ public enum Queries {
     }
 
     @Nonnull
-    public String completeQuery(String... parameters) {
+    public String completeQuery(@Nonnull String... parameters) {
         if (!isRequiredCompletion) {
             throw new UnsupportedOperationException("This query doesn't require completion.");
         }
