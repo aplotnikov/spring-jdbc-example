@@ -31,10 +31,6 @@ public class CountryDao extends JdbcDaoSupport {
     @Inject
     private NamedParameterJdbcTemplate namedParameterJdbcTemplate;
 
-    public CountryDao() {
-        // It is important to have the default constructor for injecting properties
-    }
-
     @PostConstruct
     private void initialize() {
         // Workaround for injecting Data source through Java configuration
